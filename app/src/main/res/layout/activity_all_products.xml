@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:id="@+id/activity_all_products"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usercomp.firsttask.Activities.AllProducts">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_all_products_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fbfbff"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/activity_all_products_Menu"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="поиск"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:padding="6dp"
+                android:background="@drawable/attrs_edittext"
+                android:id="@+id/activity_all_products_Edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:id="@+id/activity_all_products_Sales"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="#d50d0d0d" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/activity_all_products_toolbar"
+        android:text="Пожалуйста, выберите интересующие вас товары"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:id="@+id/activity_all_products_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/activity_all_products_TextView"
+        android:id="@+id/activity_all_product_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#e8eaf6"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+{
+	"data": {
+        "categories" : [
+          {
+            "iconUrl":"http://www.edu-domoi.ru/wp-content/uploads/010042.jpg",
+            "id":"124asf",
+            "name":"Молоко",
+            "subcategoryes":[
+              {
+                "id":"123asf",
+                "name":"subcategoryName"
+              }
+            ]
+          },
+          {
+            "iconUrl":"http://sprmag.ru/images/tmp/t-450-3.jpg",
+            "id":"124asf",
+            "name":"Помидор",
+            "subcategoryes":[
+              {
+                "id":"123asf",
+                "name":"subcategoryName"
+              }
+            ]
+          }
+        ]
+	}
+}

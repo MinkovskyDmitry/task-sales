@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\UserComp\\AndroidStudioProjects\\FirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu.png",
+        "source": "C:\\Users\\UserComp\\AndroidStudioProjects\\FirstTask\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\UserComp\\AndroidStudioProjects\\FirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_sales.png",
+        "source": "C:\\Users\\UserComp\\AndroidStudioProjects\\FirstTask\\app\\src\\main\\res\\drawable-xxhdpi\\ic_sales.png"
+    }
+]

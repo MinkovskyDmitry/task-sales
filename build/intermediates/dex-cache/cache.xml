@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_fb3f0b689d912cf016d272a30f652e653a9d1cc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_723b076c8ae9db8dde554b9926494f33cb6f15d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.1_5ad06ab930337de9e63a7bea9947f0006259ef73\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_7157374ac71547bb6d2ebccebef804debae3c959\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_49ec8efdf24fc94295f84be541e83a51850a0f48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_4da1125c0d093f9f7c15f4ebc718034746aed2b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_336bda097c5306d0b28dc36dd6ff9a505f044000\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_a9799987b881866072987b56ffd330aaff19ff2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_fd3412d201347820bd92f10f385b9741bce44f2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_f335583738059ad639cd0f87c0b947cbed9815c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_4f3afcf0caf78e6406aa774587063729fd466f55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_a45d3124c111529b974d2f84bc85bb5a9f31adff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_25a77936da6e391762c19c5b0500734b7e9dc385\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_9e4498f24126430f4176f650187039f1f713e54a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e69ed77f4a6ccfd170753b0230e4b7ef8f5ed844">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2cf6b85bad77e40a13effea409adf17119d1ee67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_c843ea7140ca5da07df863fed9530aff03713e17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eaee34d2ed81591b6521404dc35371f504cb4b58">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1ff01eeeb2d5e472c4c99f9de02e1a275e4df8b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.3.1_493b42f23b319665f7801cf11ede444114174cb0\classes.dex" />
+    </item>
+
+</items>

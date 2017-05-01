@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.usercomp.firsttask.Activities.Registration">
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:hint="Имя пользователя"
+        android:id="@+id/activity_registration_editText_nameOfUser"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:hint="Пароль"
+        android:layout_below="@+id/activity_registration_editText_nameOfUser"
+        android:id="@+id/activity_registration_editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:hint="Подтверждение пароля"
+        android:layout_below="@+id/activity_registration_editText_password"
+        android:id="@+id/activity_registration_editText_repeatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.usercomp.firsttask.ChangedViews.MaskedEditText
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_registration_maskedEditText"
+        android:layout_below="@+id/activity_registration_editText_repeatPassword"
+        android:ems="13"
+        android:text="+375"
+        app:mask=" ?999(99) 9999999"
+        app:placeholder="_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="#dfea0611"
+        android:textColor="#ffffff"
+        android:text="Регистрация"
+        android:id="@+id/activity_registration_buttonRegistration"
+        android:layout_below="@+id/activity_registration_maskedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

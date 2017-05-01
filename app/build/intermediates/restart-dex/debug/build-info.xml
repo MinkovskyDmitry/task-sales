@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="22"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="456446819199745"
+    token="-7807482470369963908"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="659" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="67" />
+    <task
+        name="verifier"
+        duration="6" />
+
+    <artifact
+        location="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="445283036079331"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="452822565204425"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="454458540800084"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="454883887444848"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="456446819199745"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

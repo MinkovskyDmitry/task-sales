@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    tools:context="com.example.usercomp.firsttask.Activities.Login">
+
+
+
+    <EditText
+        android:hint="Имя пользователя"
+        android:id="@+id/activity_login_editText_nameOfUser"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Пароль"
+        android:layout_below="@+id/activity_login_editText_nameOfUser"
+        android:id="@+id/activity_login_editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/activity_login_button_SignIn"
+        android:text="Войти"
+        android:textColor="#ffffff"
+        android:background="#dfea0611"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/activity_login_editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/activity_login_Registration"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/activity_login_button_SignIn"
+        android:textColor="#dfea0611"
+        android:text="Зарегистрироваться"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

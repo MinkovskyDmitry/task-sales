@@ -1,0 +1,6 @@
+{
+	"error": {
+    	"errorCode": 2,
+    	"errorMessage": "Cеанс клиента недействителен"
+	}
+}
