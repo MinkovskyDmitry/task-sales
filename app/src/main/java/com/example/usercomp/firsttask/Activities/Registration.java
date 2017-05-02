@@ -108,7 +108,7 @@ public class Registration extends AppCompatActivity {
             toastMessedge += "Заполните все поля";
             isCorrect = false;
         }
-        if (password.equals(repPassword) == true){
+        if (password.equals(repPassword) != true){
             if (isCorrect == false) toastMessedge += "\n";
             toastMessedge += "Пароли должны совпадать";
             isCorrect = false;
