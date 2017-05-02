@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\src\main\AndroidManifest.xml
@@ -60,6 +60,10 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\src\main\AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\src\main\AndroidManifest.xml:26:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\src\main\AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\src\main\AndroidManifest.xml:27:22-76
 uses-sdk
 INJECTED from C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:20:5-43

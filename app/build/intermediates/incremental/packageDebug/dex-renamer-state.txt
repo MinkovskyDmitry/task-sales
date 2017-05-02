@@ -1,4 +1,4 @@
-#Tue May 02 09:58:02 EET 2017
+#Tue May 02 14:08:53 EET 2017
 base.0=C\:\\Users\\UserComp\\AndroidStudioProjects\\FirstTask\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1ff01eeeb2d5e472c4c99f9de02e1a275e4df8b3
 renamed.1=classes2.dex
 renamed.0=classes.dex

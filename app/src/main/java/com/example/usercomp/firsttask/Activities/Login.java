@@ -1,8 +1,11 @@
 package com.example.usercomp.firsttask.Activities;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -59,29 +62,30 @@ public class Login extends AppCompatActivity {
 
                 if(checkForm(myLogin,myPassword)) {
 
+                    if (isNetworkAvailable()){
+                        Answer answer = JSON_Answers.getAnswer_Login_Ok(Login.this);
 
-                    Answer answer = JSON_Answers.getAnswer_Login_Ok(Login.this);
 
+                        if (answer.getError() == null && answer.getData() != null){
 
-                    if (answer.getError() == null && answer.getData() != null){
+                            Intent intent = new Intent(Login.this, AllProducts.class);
+                            intent.putExtra("sessionKey", answer.getData().getSessionKey().toString());
+                            startActivity(intent);
+                        }
+                        else{
+                            if (answer.getError() != null){
+                                Toast.makeText(Login.this, answer.getError().getErrorMessage()
+                                        , Toast.LENGTH_SHORT).show();
 
-                        Intent intent = new Intent(Login.this, AllProducts.class);
-                        intent.putExtra("sessionKey", answer.getData().getSessionKey().toString());
-                        startActivity(intent);
-                    }
-                    else{
-                        if (answer.getError() != null){
-                            Toast.makeText(Login.this, answer.getError().getErrorMessage()
-                                    , Toast.LENGTH_SHORT).show();
+                            }
 
-                            } else{
+                            }
+                        }
+                        else{
                             Toast.makeText(Login.this, "Проверьте подключение к интернету"
                                     , Toast.LENGTH_SHORT).show();
 
                         }
-                    }
-
-
 
 
 
@@ -115,10 +119,12 @@ public class Login extends AppCompatActivity {
             }
         });
     }
-    public  Answer getAnswer_LOGIN_OK() {
-        String json = loadJSONFromAsset("LoginOk.json");
-        Gson gson = new Gson();
-        return gson.fromJson(json, Answer.class);
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
     private  String loadJSONFromAsset(String file_name) {

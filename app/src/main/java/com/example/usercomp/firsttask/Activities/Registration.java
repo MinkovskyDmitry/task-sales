@@ -1,6 +1,10 @@
 package com.example.usercomp.firsttask.Activities;
 
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,7 +30,6 @@ public class Registration extends AppCompatActivity {
     private MaskedEditText editTextPhoneNumber;
     private Button buttonRegistration;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,34 +45,39 @@ public class Registration extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-
                 String login = editTextNameOfUser.getText().toString();
                 String password = editTextPassword.getText().toString();
                 String repPassword = editTextRepeatPassword.getText().toString();
                 String phone = editTextPhoneNumber.getText().toString();
 
+
+
                 if(checkForm(login,password,repPassword,phone)){
 
-                    Answer answer = JSON_Answers.getAnswer_Registration(Registration.this);
+                    if(isNetworkAvailable()){
 
+                        Answer answer = JSON_Answers.getAnswer_Registration(Registration.this);
 
-                    if (answer.getError() == null && answer.getData() != null){
+                        if (answer.getError() == null && answer.getData() != null){
 
-                        Intent intent = new Intent(Registration.this, AllProducts.class);
-                        intent.putExtra("sessionKey", answer.getData().getSessionKey().toString());
-                        startActivity(intent);
-                    }
-                    else{
-                        if (answer.getError() != null){
-                            Toast.makeText(Registration.this, answer.getError().getErrorMessage()
-                                    , Toast.LENGTH_SHORT).show();
-
-                        } else{
-                            Toast.makeText(Registration.this, "Проверьте подключение к интернету"
-                                    , Toast.LENGTH_SHORT).show();
-
+                            Intent intent = new Intent(Registration.this, AllProducts.class);
+                            intent.putExtra("sessionKey", answer.getData().getSessionKey().toString());
+                            startActivity(intent);
+                        }
+                        else{
+                            if (answer.getError() != null){
+                                Toast.makeText(Registration.this, answer.getError().getErrorMessage()
+                                        , Toast.LENGTH_SHORT).show();
+                            }
                         }
                     }
+                    else{
+                        Toast.makeText(Registration.this, "Проверьте подключение к интернету"
+                                , Toast.LENGTH_SHORT).show();
+
+                    }
+
+
 //                    Request.getApi().registration(login,password,phone).enqueue(new Callback<Answer>() {
 //                        @Override
 //                        public void onResponse(Call<Answer> call, Response<Answer> response) {
@@ -130,4 +138,12 @@ public class Registration extends AppCompatActivity {
         if (isCorrect == false) Toast.makeText(Registration.this, toastMessedge, Toast.LENGTH_SHORT).show();
         return isCorrect;
     }
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
+
 }

@@ -129,15 +129,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e69ed77f4a6ccfd170753b0230e4b7ef8f5ed844">
-        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2cf6b85bad77e40a13effea409adf17119d1ee67\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -147,11 +138,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2fccb82632874491a0127ec409f36fc0f14e1b9">
+        <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2cf6b85bad77e40a13effea409adf17119d1ee67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="eaee34d2ed81591b6521404dc35371f504cb4b58">
+        sha1="0c7243de3828fa5025704336229148fe7d15f877">
         <dex dex="C:\Users\UserComp\AndroidStudioProjects\FirstTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1ff01eeeb2d5e472c4c99f9de02e1a275e4df8b3\classes.dex" />
     </item>
     <item
